@@ -3,8 +3,8 @@ Contributors: akarmenia
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AW99EMEPQ4CFE&lc=AU&item_name=Crayon%20Syntax%20Highlighter%20Donation&item_number=crayon%2ddonate&currency_code=AUD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 License: GPLv3 or later
 Tags: syntax highlighter, syntax, highlighter, highlighting, crayon, code highlighter, bbpress
-Requires at least: 3.0
-Tested up to: 4.5.2
+Requires at least: 4.0
+Tested up to: 5.0.3
 Stable tag: trunk
 
 Syntax Highlighter supporting multiple languages, themes, fonts, highlighting from a URL, or post text.
@@ -322,7 +322,11 @@ Contact me at http://twitter.com/crayonsyntax or crayon.syntax@gmail.com.
 
 == Changelog ==
 
-= 2.8.5
+= 2.8.6 =
+* PHP 7.3.1 Fatal error fixed by Crunchify.com: Error => PHP Fatal error:  Uncaught Error: Call to a member function id() on array in <path>\wp-content\plugins\crayon-syntax-highlighter\crayon_formatter.class.php:36
+* PHP 7.3.1 Warnings fixed by Crunchify.com: Warning => PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 4 in G:\w\w\b\wp-content\plugins\crayon-syntax-highlighter\crayon_langs.class.php on line 340
+
+= 2.8.5 =
 * ADDED: 
     * Verilog language, thanks to https://github.com/gdevic.
 * FIXED:
